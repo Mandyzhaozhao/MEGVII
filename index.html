@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a1f44; /* 蓝色底色 */
+            background-image: url('background1.png'); /* 确保图片路径正确 */
+            background-size: cover; /* 背景图片覆盖整个页面 */
+            background-position: -10px 0px; /* 背景图片居中 */
+            background-repeat: no-repeat; /* 防止图片重复 */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(10, 31, 68, 0.9); /* 半透明背景，突出Logo */
+        }
+
+        .logo-container img {
+            max-width: 150px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00d1ff;
+            front-size: 40px;
+        }
+
+        .product {
+            background-color: rgba(20, 40, 80, 0.8); /* 半透明的产品背景 */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .product img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+
+        .product-info {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .product-info h2 {
+            color: #00d1ff;
+        }
+
+        .product-info p {
+            color: #cce6ff;
+        }
+
+        .download-btn {
+            background-color: #00d1ff;
+            color: #0a1f44;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #009ec3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo1.png" alt="Company Logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <h1><strong>Product Materials Downloads</strong></h1>
+	
+
+        <!-- 产品 1 -->
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <div class="product-info">
+                <h2>Product 1 Name</h2>
+                <p>This is a brief description of Product 1. It provides the features and details you need to know.</p>
+                <a class="download-btn" href="product1-download-link" download>Download</a>
+            </div>
+        </div>
+
+        <!-- 产品 2 -->
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <div class="product-info">
+                <h2>Product 2 Name</h2>
+                <p>This is a brief description of Product 2. It provides the features and details you need to know.</p>
+                <a class="download-btn" href="product2-download-link" download>Download</a>
+            </div>
+        </div>
+
+        <!-- 继续添加更多产品 -->
+        
+    </div>
+
+</body>
+</html>
